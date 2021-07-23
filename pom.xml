@@ -251,20 +251,10 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>sonatype-nexus-snapshots</id>
-      <name>Sonatype Nexus Snapshots</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <id>stt-snapshot</id>
+      <name>libs-snapshot</name>
+      <url>http://repo.stockstotrade.com:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
-    <repository>
-      <id>sonatype-nexus-staging</id>
-      <name>Nexus Release Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-    <site>
-      <id>docs</id>
-      <name>Documentation Site</name>
-      <url>http://td-ameritrade-client.studerw.com.s3-website-us-east-1.amazonaws.com/</url>
-    </site>
   </distributionManagement>
 
 </project>
